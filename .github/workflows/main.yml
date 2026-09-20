@@ -27,7 +27,7 @@ jobs:
         shell: pwsh
         run: |
           Compress-Archive `
-            -Path "${{ github.workspace }}\HWorkshopExtender\Release\*" `
+            -Path "${{ github.workspace }}\HWorkshopExtender\x64\Release\*" `
             -DestinationPath "${{ github.workspace }}\HWorkshopExtender.zip" `
             -Force
 
